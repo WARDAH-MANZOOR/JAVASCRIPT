@@ -12,4 +12,5 @@ const jsUser = {
 
 console.log(jsUser.email) // not a good method
 console.log(jsUser["email"]) // istarah extract karne ke liye data hum string me rakhte hian key because ye object me as a string hi treat horahi hai
+console.log(jsUser[mySym]) // symbol ko print karneka tareeka 
 console.log(jsUser.age)
