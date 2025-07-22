@@ -77,3 +77,19 @@ console.log(Object.entries(tinderUser1))
 // for checking property exists or not 
 
 console.log(tinderUser1.hasOwnProperty("isLoggedIn"))
+
+// Destructure the objects
+const course = {
+    courseName:"javascript",
+    price:1000,
+    courseInstructor:"wardah"
+}
+console.log(course.courseInstructor) // correct method but length
+
+// shortcut trick to avoild again and again writing course variable name
+const {courseInstructor} = course
+console.log(courseInstructor)
+// mazeed short likhne k liye
+
+const {courseInstructor:instructor} = course // yahan courseinstructor ko instructor ka name dedia hai
+console.log(instructor)
